@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+.error {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: white;
+    background-color: #900;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 10px;
+}
+
+.error p {
+    line-height: 1;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+  
+.error.active {
+    display: block;
+}
+
+button.submit {
+    background: greenyellow;
+    border: greenyellow;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: 1px solid greenyellow;
+}
+
+button.submit:hover{
+    background: none;
+}
+
+
